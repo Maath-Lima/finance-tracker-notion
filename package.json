@@ -1,0 +1,19 @@
+{
+  "name": "FinanceTrackerBot",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^0.4.4",
+    "googleapis": "^39.2.0",
+    "moment": "^2.29.1"
+  }
+}
