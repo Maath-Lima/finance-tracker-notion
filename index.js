@@ -1,4 +1,4 @@
-import { Client } from "@notionhq/client"
+import { Client } from "@notionhq/client";
 import moment from "moment";
 
 const integration_key = 'secret';
@@ -69,6 +69,8 @@ function updateBillsReceipts(finance_tracker_current_month) {
       console.log(`Arquivo não encontrado para o dia ${date_formated}`)
       return;
     }
+    //create a list to add all file names that will be searched
+    //return a list of objects with file url and name from a function 
 
     const response = await notion.pages.update({
       page_id: receipt.id,
